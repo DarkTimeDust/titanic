@@ -36,4 +36,5 @@ df[list(pd.get_dummies(df['Embarked']).columns)] = pd.get_dummies(df['Embarked']
 
 df.drop('Embarked',axis=1, inplace=True)
 
-print(df.groupby('Pclass'))
+df.info()
+
