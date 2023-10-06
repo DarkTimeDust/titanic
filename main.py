@@ -69,7 +69,7 @@ y_pred = classifier.predict(X_test)
 
 print(y_pred)
 
-#оцінка точності прогнозу
+#оцінка точності 
 
 for p,t in zip(y_pred,y_test):
     print(f'p={p}; t={t}')
